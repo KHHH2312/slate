@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.5.0 — 2026-10-30
+
+- Tag entry suggests tags already on the desk.
+- Clicking a note tag filters the desk; All notes restores it.
+- Browser proof grows to 36 checks.
+
 ## 1.4.0 — 2026-10-30
 
 - Move the open note between notebooks with a picker in its meta strip.

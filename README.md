@@ -17,7 +17,7 @@ A private markdown notebook with wiki links, backlinks, full-text search and ima
 
 </div>
 
-> **New — 1.4.0** — move a note between notebooks from the editor.
+> **New — 1.5.0** — tag suggestions, and click a tag to filter the desk.
 > [Changelog →](CHANGELOG.md)
 
 ---
@@ -39,7 +39,7 @@ A private markdown notebook with wiki links, backlinks, full-text search and ima
 | **Wiki links** | Type [[Title]] to link; a missing target is created on click. |
 | **Backlinks** | Every note shows who links here, with a one-click jump. |
 | **Search** | Full-text search with highlighted results and keyboard focus. |
-| **Tags** | Tag any note, filter the desk by tag, see counts. |
+| **Tags** | Tag with suggestions, click a note chip to filter, see counts. |
 | **Trash** | Trash, restore and permanent delete with a safeguard against skipping the trash. |
 | **Images** | Insert, paste or drop PNG/JPEG/WebP pictures; stored locally with the note. |
 | **Export/import** | Export a note as .md or a styled standalone .html page; a notebook as JSON; import markdown files. |
@@ -57,7 +57,7 @@ A private markdown notebook with wiki links, backlinks, full-text search and ima
 
 ## Install
 
-1. Download **Slate-1.4.0-win32-x64.zip** from [Releases](https://github.com/KHHH2312/slate/releases/latest).
+1. Download **Slate-1.5.0-win32-x64.zip** from [Releases](https://github.com/KHHH2312/slate/releases/latest).
 2. Verify it against `SHA256SUMS.txt`:
    ```powershell
    Get-FileHash .\Slate-*-win32-x64.zip -Algorithm SHA256
@@ -78,7 +78,7 @@ A private markdown notebook with wiki links, backlinks, full-text search and ima
 ## Verified
 
 - Model/API suite: 101 checks green.
-- Browser golden proof: 34 checks green, including task toggling, an HTML export, a notebook move and a real image upload.
+- Browser golden proof: 36 checks green, including tag suggestions/filtering, an HTML export, a notebook move and a real image upload.
 - Packaged app passes the source-parity integrity gate and ships with SHA-256 sums and a per-file manifest.
 
 ## Security and privacy
