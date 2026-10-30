@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.2.0 — 2026-10-30
+
+- Task lists are clickable in the preview; toggling updates the markdown and autosaves.
+- Suite grows to 98 checks; browser proof grows to 31.
+
 ## 1.1.0 — 2026-10-30
 
 - Insert, paste or drop PNG, JPEG and WebP images into a note.
