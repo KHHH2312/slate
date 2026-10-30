@@ -17,7 +17,7 @@ A private markdown notebook with wiki links, backlinks, full-text search and ima
 
 </div>
 
-> **New — 1.6.0** — note templates for meetings, days and reading.
+> **New — 1.7.0** — backlinks show a context excerpt beside the source title.
 > [Changelog →](CHANGELOG.md)
 
 ---
@@ -37,7 +37,7 @@ A private markdown notebook with wiki links, backlinks, full-text search and ima
 | **Notebooks & notes** | Folders, note templates, a notebook picker, pinned notes and rename without losing the writing. |
 | **Markdown desk** | Split, source or preview; autosave, word counts, clickable task lists and a quiet typographic page. |
 | **Wiki links** | Type [[Title]] to link; a missing target is created on click. |
-| **Backlinks** | Every note shows who links here, with a one-click jump. |
+| **Backlinks** | Every note shows who links here, with a context excerpt and a one-click jump. |
 | **Search** | Full-text search with highlighted results and keyboard focus. |
 | **Tags** | Tag with suggestions, click a note chip to filter, see counts. |
 | **Trash** | Trash, restore and permanent delete with a safeguard against skipping the trash. |
@@ -57,7 +57,7 @@ A private markdown notebook with wiki links, backlinks, full-text search and ima
 
 ## Install
 
-1. Download **Slate-1.6.0-win32-x64.zip** from [Releases](https://github.com/KHHH2312/slate/releases/latest).
+1. Download **Slate-1.7.0-win32-x64.zip** from [Releases](https://github.com/KHHH2312/slate/releases/latest).
 2. Verify it against `SHA256SUMS.txt`:
    ```powershell
    Get-FileHash .\Slate-*-win32-x64.zip -Algorithm SHA256
@@ -78,7 +78,7 @@ A private markdown notebook with wiki links, backlinks, full-text search and ima
 ## Verified
 
 - Model/API suite: 101 checks green.
-- Browser golden proof: 39 checks green, including templates, tags, an HTML export, a notebook move and a real image upload.
+- Browser golden proof: 40 checks green, including backlink excerpts, templates, tags, HTML export and a notebook move.
 - Packaged app passes the source-parity integrity gate and ships with SHA-256 sums and a per-file manifest.
 
 ## Security and privacy

@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.7.0 — 2026-10-30
+
+- Backlink chips show a one-line context excerpt beside the linking note title.
+- Browser proof grows to 40 checks.
+
 ## 1.6.0 — 2026-10-30
 
 - Note templates: blank, meeting notes, daily note and reading note, with markdown bodies and tags.
