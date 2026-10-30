@@ -6,7 +6,7 @@
 
 ### A quiet desk for notes that belong to you.
 
-A private markdown notebook with wiki links, backlinks, full-text search and images.
+A private markdown notebook with wiki links, backlinks and full-text search.
 
 [![Download for Windows](https://img.shields.io/badge/Download-Windows%20x64-3F5A44?style=for-the-badge&logo=windows11&logoColor=white)](https://github.com/KHHH2312/slate/releases/latest)
 [![Latest release](https://img.shields.io/github/v/release/KHHH2312/slate?style=flat-square&color=3F5A44)](https://github.com/KHHH2312/slate/releases)
@@ -17,7 +17,7 @@ A private markdown notebook with wiki links, backlinks, full-text search and ima
 
 </div>
 
-> **New — 1.10.0** — an Unlinked view for notes with no links in or out.
+> **New — 1.12.0** — the whole desk exports as markdown in a ZIP, and rail tags rename or merge.
 > [Changelog →](CHANGELOG.md)
 
 ---
@@ -39,10 +39,10 @@ A private markdown notebook with wiki links, backlinks, full-text search and ima
 | **Wiki links** | Type [[Title]] to link; a missing target is created on click. |
 | **Backlinks** | Every note shows who links here, with a context excerpt and a one-click jump. |
 | **Search** | Full-text search with highlighted results and keyboard focus. |
-| **Tags** | Tag with suggestions, click a note chip to filter, see counts. |
-| **Trash** | Trash, restore and permanent delete with a safeguard against skipping the trash. |
+| **Tags** | Tag with suggestions, click a note chip to filter, rename or merge a tag across every note from the rail. |
 | **Images** | Insert, paste or drop PNG/JPEG/WebP pictures; stored locally with the note. |
-| **Export/import** | Export a note as .md or a styled standalone .html page; a notebook as JSON; import markdown files. |
+| **Trash** | Trash, restore and permanent delete with a safeguard against skipping the trash. |
+| **Export/import** | Export a note as .md or HTML, a notebook as JSON, or the whole desk as a ZIP of markdown files with images in _attachments/; import markdown files. |
 
 <div align="center">
 <img src="docs/slate-search.png" alt="Slate" width="49%">
@@ -57,7 +57,7 @@ A private markdown notebook with wiki links, backlinks, full-text search and ima
 
 ## Install
 
-1. Download **Slate-1.10.0-win32-x64.zip** from [Releases](https://github.com/KHHH2312/slate/releases/latest).
+1. Download **Slate-1.12.0-win32-x64.zip** from [Releases](https://github.com/KHHH2312/slate/releases/latest).
 2. Verify it against `SHA256SUMS.txt`:
    ```powershell
    Get-FileHash .\Slate-*-win32-x64.zip -Algorithm SHA256
@@ -73,12 +73,13 @@ A private markdown notebook with wiki links, backlinks, full-text search and ima
 1. Install and launch Slate.
 2. Create a notebook and a note, then write markdown in the editor.
 3. Link another note with [[Title]]; follow it and check the backlinks panel.
-4. Use Ctrl+Shift+F to search, Ctrl+P to jump, Ctrl+S to save now.
+4. Use the image button (or paste/drop) to place a picture in the note.
+5. Use Ctrl+Shift+F to search, Ctrl+P to jump, Ctrl+S to save now.
 
 ## Verified
 
-- Model/API suite: 105 checks green.
-- Browser golden proof: 45 checks green, including the unlinked view, desk backup/restore, templates and HTML export.
+- Model/API suite: 110 checks green.
+- Browser golden proof: 48 checks green, including the markdown ZIP export, tag rename from the rail, backlinks, templates, HTML export and a real image upload.
 - Packaged app passes the source-parity integrity gate and ships with SHA-256 sums and a per-file manifest.
 
 ## Security and privacy
