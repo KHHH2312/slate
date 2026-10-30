@@ -17,7 +17,7 @@ A private markdown notebook with wiki links, backlinks, full-text search and ima
 
 </div>
 
-> **New — 1.8.0** — Ctrl+Shift+D opens or creates today's daily note.
+> **New — 1.9.0** — back up the whole desk to one JSON file and restore it.
 > [Changelog →](CHANGELOG.md)
 
 ---
@@ -57,7 +57,7 @@ A private markdown notebook with wiki links, backlinks, full-text search and ima
 
 ## Install
 
-1. Download **Slate-1.8.0-win32-x64.zip** from [Releases](https://github.com/KHHH2312/slate/releases/latest).
+1. Download **Slate-1.9.0-win32-x64.zip** from [Releases](https://github.com/KHHH2312/slate/releases/latest).
 2. Verify it against `SHA256SUMS.txt`:
    ```powershell
    Get-FileHash .\Slate-*-win32-x64.zip -Algorithm SHA256
@@ -77,8 +77,8 @@ A private markdown notebook with wiki links, backlinks, full-text search and ima
 
 ## Verified
 
-- Model/API suite: 101 checks green.
-- Browser golden proof: 41 checks green, including the daily-note shortcut, templates, tags and HTML export.
+- Model/API suite: 104 checks green.
+- Browser golden proof: 43 checks green, including desk backup/restore, the daily shortcut, templates and HTML export.
 - Packaged app passes the source-parity integrity gate and ships with SHA-256 sums and a per-file manifest.
 
 ## Security and privacy

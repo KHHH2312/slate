@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.9.0 — 2026-10-30
+
+- Back up the whole desk to one JSON file; restore it into new notebooks.
+- Suite grows to 104 checks; browser proof to 43.
+
 ## 1.8.0 — 2026-10-30
 
 - Ctrl+Shift+D opens or creates today's daily note from the template.
