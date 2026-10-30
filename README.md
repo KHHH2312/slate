@@ -17,7 +17,7 @@ A private markdown notebook with wiki links, backlinks, full-text search and ima
 
 </div>
 
-> **New — 1.7.0** — backlinks show a context excerpt beside the source title.
+> **New — 1.8.0** — Ctrl+Shift+D opens or creates today's daily note.
 > [Changelog →](CHANGELOG.md)
 
 ---
@@ -57,7 +57,7 @@ A private markdown notebook with wiki links, backlinks, full-text search and ima
 
 ## Install
 
-1. Download **Slate-1.7.0-win32-x64.zip** from [Releases](https://github.com/KHHH2312/slate/releases/latest).
+1. Download **Slate-1.8.0-win32-x64.zip** from [Releases](https://github.com/KHHH2312/slate/releases/latest).
 2. Verify it against `SHA256SUMS.txt`:
    ```powershell
    Get-FileHash .\Slate-*-win32-x64.zip -Algorithm SHA256
@@ -78,7 +78,7 @@ A private markdown notebook with wiki links, backlinks, full-text search and ima
 ## Verified
 
 - Model/API suite: 101 checks green.
-- Browser golden proof: 40 checks green, including backlink excerpts, templates, tags, HTML export and a notebook move.
+- Browser golden proof: 41 checks green, including the daily-note shortcut, templates, tags and HTML export.
 - Packaged app passes the source-parity integrity gate and ships with SHA-256 sums and a per-file manifest.
 
 ## Security and privacy

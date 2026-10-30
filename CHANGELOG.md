@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.8.0 — 2026-10-30
+
+- Ctrl+Shift+D opens or creates today's daily note from the template.
+- Browser proof grows to 41 checks.
+
 ## 1.7.0 — 2026-10-30
 
 - Backlink chips show a one-line context excerpt beside the linking note title.
