@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.10.0 — 2026-10-30
+
+- Unlinked view: notes with no links in or out, with a rail count.
+- Suite grows to 105 checks; browser proof to 45.
+
 ## 1.9.0 — 2026-10-30
 
 - Back up the whole desk to one JSON file; restore it into new notebooks.
