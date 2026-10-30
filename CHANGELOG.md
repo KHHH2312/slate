@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.6.0 — 2026-10-30
+
+- Note templates: blank, meeting notes, daily note and reading note, with markdown bodies and tags.
+- Browser proof grows to 39 checks.
+
 ## 1.5.0 — 2026-10-30
 
 - Tag entry suggests tags already on the desk.
