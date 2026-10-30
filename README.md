@@ -6,7 +6,7 @@
 
 ### A quiet desk for notes that belong to you.
 
-A private markdown notebook with wiki links, backlinks and full-text search.
+A private markdown notebook with wiki links, backlinks, full-text search and images.
 
 [![Download for Windows](https://img.shields.io/badge/Download-Windows%20x64-3F5A44?style=for-the-badge&logo=windows11&logoColor=white)](https://github.com/KHHH2312/slate/releases/latest)
 [![Latest release](https://img.shields.io/github/v/release/KHHH2312/slate?style=flat-square&color=3F5A44)](https://github.com/KHHH2312/slate/releases)
@@ -17,7 +17,7 @@ A private markdown notebook with wiki links, backlinks and full-text search.
 
 </div>
 
-> **New — 1.0.0** — notebooks & notes · markdown desk · wiki links · backlinks.
+> **New — 1.1.0** — insert, paste or drop pictures into a note.
 > [Changelog →](CHANGELOG.md)
 
 ---
@@ -41,6 +41,7 @@ A private markdown notebook with wiki links, backlinks and full-text search.
 | **Search** | Full-text search with highlighted results and keyboard focus. |
 | **Tags** | Tag any note, filter the desk by tag, see counts. |
 | **Trash** | Trash, restore and permanent delete with a safeguard against skipping the trash. |
+| **Images** | Insert, paste or drop PNG/JPEG/WebP pictures; stored locally with the note. |
 | **Export/import** | Export a note as .md or a notebook as JSON; import markdown files. |
 
 <div align="center">
@@ -56,7 +57,7 @@ A private markdown notebook with wiki links, backlinks and full-text search.
 
 ## Install
 
-1. Download **Slate-1.0.0-win32-x64.zip** from [Releases](https://github.com/KHHH2312/slate/releases/latest).
+1. Download **Slate-1.1.0-win32-x64.zip** from [Releases](https://github.com/KHHH2312/slate/releases/latest).
 2. Verify it against `SHA256SUMS.txt`:
    ```powershell
    Get-FileHash .\Slate-*-win32-x64.zip -Algorithm SHA256
@@ -76,8 +77,8 @@ A private markdown notebook with wiki links, backlinks and full-text search.
 
 ## Verified
 
-- Model/API suite: 88 checks green.
-- Browser golden proof: 27 checks green after fixing a real empty-body DELETE bug.
+- Model/API suite: 97 checks green.
+- Browser golden proof: 29 checks green, including a real image upload and render.
 - Packaged app passes the source-parity integrity gate and ships with SHA-256 sums and a per-file manifest.
 
 ## Security and privacy
