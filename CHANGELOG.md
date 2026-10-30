@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.4.0 — 2026-10-30
+
+- Move the open note between notebooks with a picker in its meta strip.
+- Browser proof grows to 34 checks.
+
 ## 1.3.0 — 2026-10-30
 
 - Export a note as a self-contained, paper-styled HTML page with escaped markup.
