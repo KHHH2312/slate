@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.3.0 — 2026-10-30
+
+- Export a note as a self-contained, paper-styled HTML page with escaped markup.
+- Suite grows to 101 checks; browser proof grows to 32.
+
 ## 1.2.0 — 2026-10-30
 
 - Task lists are clickable in the preview; toggling updates the markdown and autosaves.

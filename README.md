@@ -17,7 +17,7 @@ A private markdown notebook with wiki links, backlinks, full-text search and ima
 
 </div>
 
-> **New — 1.2.0** — click a task checkbox in the preview; the markdown updates and saves.
+> **New — 1.3.0** — export any note as a standalone HTML page.
 > [Changelog →](CHANGELOG.md)
 
 ---
@@ -42,7 +42,7 @@ A private markdown notebook with wiki links, backlinks, full-text search and ima
 | **Tags** | Tag any note, filter the desk by tag, see counts. |
 | **Trash** | Trash, restore and permanent delete with a safeguard against skipping the trash. |
 | **Images** | Insert, paste or drop PNG/JPEG/WebP pictures; stored locally with the note. |
-| **Export/import** | Export a note as .md or a notebook as JSON; import markdown files. |
+| **Export/import** | Export a note as .md or a styled standalone .html page; a notebook as JSON; import markdown files. |
 
 <div align="center">
 <img src="docs/slate-search.png" alt="Slate" width="49%">
@@ -57,7 +57,7 @@ A private markdown notebook with wiki links, backlinks, full-text search and ima
 
 ## Install
 
-1. Download **Slate-1.2.0-win32-x64.zip** from [Releases](https://github.com/KHHH2312/slate/releases/latest).
+1. Download **Slate-1.3.0-win32-x64.zip** from [Releases](https://github.com/KHHH2312/slate/releases/latest).
 2. Verify it against `SHA256SUMS.txt`:
    ```powershell
    Get-FileHash .\Slate-*-win32-x64.zip -Algorithm SHA256
@@ -77,8 +77,8 @@ A private markdown notebook with wiki links, backlinks, full-text search and ima
 
 ## Verified
 
-- Model/API suite: 98 checks green.
-- Browser golden proof: 31 checks green, including task toggling, a real image upload and render.
+- Model/API suite: 101 checks green.
+- Browser golden proof: 32 checks green, including task toggling, an HTML export, a real image upload and render.
 - Packaged app passes the source-parity integrity gate and ships with SHA-256 sums and a per-file manifest.
 
 ## Security and privacy
