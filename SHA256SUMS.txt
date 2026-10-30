@@ -1,3 +1,3 @@
-97009c002c17a702f3e5f89526f9e446e13c584771d36a5dddb6c9cbd5fd53dd *Slate-1.12.0-win32-x64.zip
-1f5bd9d38b8c72eceb0ae9f65eed746f836dc64c1f944321737ae1993b262afc *Slate/Slate.exe
-d8401369cefecdd67086c446ba7ce838909da8a8bb899cb5dcb3eac17e556dd2 *FILEMANIFEST.txt
+92cca5f3f7b673566c86b23fc27ebde852bf1128b807a496aa57fe42980142ce *Slate-1.13.0-win32-x64.zip
+8dbd5ff38baf3f0b3cb659d21bce4c08921bf359b41bc911066fdeafd4d328c0 *Slate/Slate.exe
+ef4e638dc29e6eacc7f6f373ced2a080a4753eaab960a2a2a0c01f92abf3ef41 *FILEMANIFEST.txt
