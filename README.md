@@ -17,7 +17,7 @@ A private markdown notebook with wiki links, backlinks and full-text search.
 
 </div>
 
-> **New — 1.12.0** — the whole desk exports as markdown in a ZIP, and rail tags rename or merge.
+> **New — 1.14.0** — unlinked mentions, passphrase-encrypted backups and the markdown ZIP export.
 > [Changelog →](CHANGELOG.md)
 
 ---
@@ -37,12 +37,12 @@ A private markdown notebook with wiki links, backlinks and full-text search.
 | **Notebooks & notes** | Folders, note templates, a notebook picker, pinned notes and rename without losing the writing. |
 | **Markdown desk** | Split, source or preview; autosave, word counts, clickable task lists and a quiet typographic page. |
 | **Wiki links** | Type [[Title]] to link; a missing target is created on click. |
-| **Backlinks** | Every note shows who links here, with a context excerpt and a one-click jump. |
+| **Backlinks** | Every note shows who links here, plus plain-text mentions of its title that were never bracketed — each with an excerpt and a jump. |
 | **Search** | Full-text search with highlighted results and keyboard focus. |
 | **Tags** | Tag with suggestions, click a note chip to filter, rename or merge a tag across every note from the rail. |
 | **Images** | Insert, paste or drop PNG/JPEG/WebP pictures; stored locally with the note. |
 | **Trash** | Trash, restore and permanent delete with a safeguard against skipping the trash. |
-| **Export/import** | Export a note as .md or HTML, a notebook as JSON, or the whole desk as a ZIP of markdown files with images in _attachments/; import markdown files. |
+| **Export/import** | Export a note as .md or HTML, a notebook as JSON, the whole desk as a ZIP of markdown files, or a passphrase-encrypted desk backup; import markdown and unlock encrypted archives. |
 
 <div align="center">
 <img src="docs/slate-search.png" alt="Slate" width="49%">
@@ -57,7 +57,7 @@ A private markdown notebook with wiki links, backlinks and full-text search.
 
 ## Install
 
-1. Download **Slate-1.12.0-win32-x64.zip** from [Releases](https://github.com/KHHH2312/slate/releases/latest).
+1. Download **Slate-1.14.0-win32-x64.zip** from [Releases](https://github.com/KHHH2312/slate/releases/latest).
 2. Verify it against `SHA256SUMS.txt`:
    ```powershell
    Get-FileHash .\Slate-*-win32-x64.zip -Algorithm SHA256
@@ -78,8 +78,8 @@ A private markdown notebook with wiki links, backlinks and full-text search.
 
 ## Verified
 
-- Model/API suite: 110 checks green.
-- Browser golden proof: 48 checks green, including the markdown ZIP export, tag rename from the rail, backlinks, templates, HTML export and a real image upload.
+- Model/API suite: 117 checks green.
+- Browser golden proof: 55 checks green, including unlinked mentions, encrypted backup/restore, markdown ZIP and tag rename.
 - Packaged app passes the source-parity integrity gate and ships with SHA-256 sums and a per-file manifest.
 
 ## Security and privacy
