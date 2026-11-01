@@ -17,7 +17,7 @@ A private markdown notebook with wiki links, backlinks and full-text search.
 
 </div>
 
-> **New — 1.22.0** — the desk remembers the collection view and its column sort.
+> **New — 1.23.0** — Ctrl+Shift+T flips the desk between cards and the collection table.
 > [Changelog →](CHANGELOG.md)
 
 ---
@@ -38,7 +38,7 @@ A private markdown notebook with wiki links, backlinks and full-text search.
 | **Markdown desk** | Split, source or preview; autosave, word counts, clickable task lists and a quiet typographic page. |
 | **Wiki links** | Type [[Title]] to link; a missing target is created on click. |
 | **Backlinks** | Every note shows who links here, plus plain-text mentions of its title that were never bracketed — each with an excerpt and a jump. |
-| **Search** | Full-text search with highlighted results and keyboard focus. |
+| **Search** | Full-text search with highlighted results and keyboard focus. The field now advertises the key: value syntax, so property search is discoverable without reading the manual. |
 | **Tags** | Hierarchical tags: #project/phase nests under #project, a parent filter shows its children and renaming a parent renames the whole branch. Suggestions, click-to-filter and rename/merge from the rail still apply. |
 | **Properties** | Add or remove a property in the strip under the note title and Slate writes the --- block for you. The name field autocompletes to keys already on the desk and the value field offers the values that key already has, so status never arrives as stat. Scalars, numbers, booleans, [inline] and - block lists parse back the same way, collect in the rail, filter the desk, badge every card and answer a key:value search. |
 | **Collection view** | Toggle the note list to a table and the properties become columns. Click a header to sort by that column, click again to reverse; the view you were using and its sort are remembered next time you open the desk. |
@@ -60,7 +60,7 @@ A private markdown notebook with wiki links, backlinks and full-text search.
 
 ## Install
 
-1. Download **Slate-1.22.0-win32-x64.zip** from [Releases](https://github.com/KHHH2312/slate/releases/latest).
+1. Download **Slate-1.23.0-win32-x64.zip** from [Releases](https://github.com/KHHH2312/slate/releases/latest).
 2. Verify it against `SHA256SUMS.txt`:
    ```powershell
    Get-FileHash .\Slate-*-win32-x64.zip -Algorithm SHA256
@@ -83,7 +83,7 @@ A private markdown notebook with wiki links, backlinks and full-text search.
 ## Verified
 
 - Model/API suite: 175 checks green.
-- Browser golden proof: 85 checks green, including sortable collection columns (columns, row values, click-to-open, toggle back), writing and removing a property from the panel, key:value search and live frontmatter parsing.
+- Browser golden proof: 88 checks green, including sortable collection columns (columns, row values, click-to-open, toggle back), writing and removing a property from the panel, key:value search and live frontmatter parsing.
 - Packaged app passes the source-parity integrity gate and ships with SHA-256 sums and a per-file manifest.
 
 ## Security and privacy
