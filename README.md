@@ -17,7 +17,7 @@ A private markdown notebook with wiki links, backlinks and full-text search.
 
 </div>
 
-> **New — 1.16.0** — nested tags - #project/phase lives under #project.
+> **New — 1.17.0** — properties - a --- block at the top of a note becomes a filterable property.
 > [Changelog →](CHANGELOG.md)
 
 ---
@@ -40,6 +40,7 @@ A private markdown notebook with wiki links, backlinks and full-text search.
 | **Backlinks** | Every note shows who links here, plus plain-text mentions of its title that were never bracketed — each with an excerpt and a jump. |
 | **Search** | Full-text search with highlighted results and keyboard focus. |
 | **Tags** | Hierarchical tags: #project/phase nests under #project, a parent filter shows its children and renaming a parent renames the whole branch. Suggestions, click-to-filter and rename/merge from the rail still apply. |
+| **Properties** | Write a --- block at the top of a note and Slate reads it: scalars, numbers, booleans, [inline] and - block lists. Properties collect in the rail, filter the desk, badge every card and answer a key:value search. |
 | **Images** | Insert, paste or drop PNG/JPEG/WebP pictures; stored locally with the note. |
 | **Trash** | Trash, restore and permanent delete with a safeguard against skipping the trash. |
 | **Export/import** | Export a note as .md or HTML, a notebook as JSON, the whole desk as a ZIP of markdown files, or a passphrase-encrypted desk backup; import markdown and unlock encrypted archives. |
@@ -58,7 +59,7 @@ A private markdown notebook with wiki links, backlinks and full-text search.
 
 ## Install
 
-1. Download **Slate-1.16.0-win32-x64.zip** from [Releases](https://github.com/KHHH2312/slate/releases/latest).
+1. Download **Slate-1.17.0-win32-x64.zip** from [Releases](https://github.com/KHHH2312/slate/releases/latest).
 2. Verify it against `SHA256SUMS.txt`:
    ```powershell
    Get-FileHash .\Slate-*-win32-x64.zip -Algorithm SHA256
@@ -76,11 +77,12 @@ A private markdown notebook with wiki links, backlinks and full-text search.
 3. Link another note with [[Title]]; follow it and check the backlinks panel.
 4. Use the image button (or paste/drop) to place a picture in the note.
 5. Use Ctrl+Shift+F to search, Ctrl+P to jump, Ctrl+S to save now.
+6. Start a note with a --- block (type: meeting, rating: 4) and filter the desk from the Properties rail.
 
 ## Verified
 
-- Model/API suite: 125 checks green.
-- Browser golden proof: 60 checks green, including hierarchical tag nesting in the rail, parent/child scope counts, the print view, unlinked mentions and encrypted backup/restore.
+- Model/API suite: 147 checks green.
+- Browser golden proof: 68 checks green, including the property rail, key:value search, frontmatter parsed live while typing and hierarchical tag nesting in the rail.
 - Packaged app passes the source-parity integrity gate and ships with SHA-256 sums and a per-file manifest.
 
 ## Security and privacy
