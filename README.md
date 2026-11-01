@@ -17,7 +17,7 @@ A private markdown notebook with wiki links, backlinks and full-text search.
 
 </div>
 
-> **New — 1.15.0** — a clean print view, unlinked mentions and encrypted backups.
+> **New — 1.16.0** — nested tags - #project/phase lives under #project.
 > [Changelog →](CHANGELOG.md)
 
 ---
@@ -39,7 +39,7 @@ A private markdown notebook with wiki links, backlinks and full-text search.
 | **Wiki links** | Type [[Title]] to link; a missing target is created on click. |
 | **Backlinks** | Every note shows who links here, plus plain-text mentions of its title that were never bracketed — each with an excerpt and a jump. |
 | **Search** | Full-text search with highlighted results and keyboard focus. |
-| **Tags** | Tag with suggestions, click a note chip to filter, rename or merge a tag across every note from the rail. |
+| **Tags** | Hierarchical tags: #project/phase nests under #project, a parent filter shows its children and renaming a parent renames the whole branch. Suggestions, click-to-filter and rename/merge from the rail still apply. |
 | **Images** | Insert, paste or drop PNG/JPEG/WebP pictures; stored locally with the note. |
 | **Trash** | Trash, restore and permanent delete with a safeguard against skipping the trash. |
 | **Export/import** | Export a note as .md or HTML, a notebook as JSON, the whole desk as a ZIP of markdown files, or a passphrase-encrypted desk backup; import markdown and unlock encrypted archives. |
@@ -58,7 +58,7 @@ A private markdown notebook with wiki links, backlinks and full-text search.
 
 ## Install
 
-1. Download **Slate-1.15.0-win32-x64.zip** from [Releases](https://github.com/KHHH2312/slate/releases/latest).
+1. Download **Slate-1.16.0-win32-x64.zip** from [Releases](https://github.com/KHHH2312/slate/releases/latest).
 2. Verify it against `SHA256SUMS.txt`:
    ```powershell
    Get-FileHash .\Slate-*-win32-x64.zip -Algorithm SHA256
@@ -79,8 +79,8 @@ A private markdown notebook with wiki links, backlinks and full-text search.
 
 ## Verified
 
-- Model/API suite: 117 checks green.
-- Browser golden proof: 57 checks green, including the print view, unlinked mentions, encrypted backup/restore and tag rename.
+- Model/API suite: 125 checks green.
+- Browser golden proof: 60 checks green, including hierarchical tag nesting in the rail, parent/child scope counts, the print view, unlinked mentions and encrypted backup/restore.
 - Packaged app passes the source-parity integrity gate and ships with SHA-256 sums and a per-file manifest.
 
 ## Security and privacy
